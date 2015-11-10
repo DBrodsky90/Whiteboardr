@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Whiteboardr</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>var socket = io();</script>
+	</head>
+
+	<body>
+		<canvas id="canvas"></canvas>
+		<div id="options">
+			<div id="left"></div>
+			<div id="right"></div>
+			<div id="bottom"></div>
+		</div>
+		<div id="chatRoom">
+			<div id="chat">
+				<ul id="messages"></ul>
+			</div>
+			<div id="chatinput">
+	    	<form>
+	      	<input id="message" autocomplete="off" /><button id="send">Send</button>
+	    	</form>				
+			</div>
+		</div>
+		<script src="javascript/whiteboard.js"></script>
+		<script src="javascript/chatroom.js"></script>
+		<script src="javascript/colorpicker.js"></script>
+	</body>
+
+</html>

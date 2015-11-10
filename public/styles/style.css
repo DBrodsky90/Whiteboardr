@@ -1,0 +1,100 @@
+/* CANVAS */
+
+#canvas {
+	width: 90%;
+	height: 600px;
+	border: 3px solid black;
+	cursor: cell;
+}
+
+/* OPTIONS */
+
+#options {
+	display: inline-block;
+	width: 9%;
+	height: 600px;
+	border: 3px solid black;
+}
+
+#left, #right {
+	position: relative;
+	display: inline-block;
+	height: 70%;
+	width: 48.5%;
+	float: left;
+}
+
+#right {
+	border-left: 3px solid black;
+}
+
+#bottom {
+	display: block;
+	height: 29.5%;
+	clear: both;
+	border-top: 3px solid black;
+	cursor: cell;
+}
+
+/* CHAT ROOM */
+
+#chatRoom {
+	position: relative;
+	display: block;
+	width: 99.55%;
+	height: 300px;
+	border: 3px solid black;
+}
+
+#chat {
+	height: 85%;
+	overflow-y: scroll;
+}
+
+#chatinput {
+	height: 15%;
+}
+
+form {
+	background: #000;
+	padding: 1px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 3px solid black;
+}
+
+form input { 
+	border: 0; 
+	padding: .85%; 
+	width: 89%; 
+	font-size: 15px;
+}
+
+form button { 
+	width: 9%; 
+	background: rgb(130, 224, 255); 
+	border: none; 
+	padding: 15px; 
+	margin: 1.3px;
+	float: right;
+}
+
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0;
+}
+
+#messages li { 
+	padding: 5px 10px;
+	font-size: 25px; 
+}
+#messages li:nth-child(odd) { 
+	background: #eee; 
+}
+
+ul {
+	min-height: 90%;
+	max-height: 90%;
+}
